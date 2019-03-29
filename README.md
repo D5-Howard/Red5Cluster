@@ -14,6 +14,9 @@ I also release a version of Red5-server that can Work in Origin-Edge Mode.If you
 
 # Relase version
 
+You can download release version there:
+
+1. 1.0.10(2019-03-29)  https://github.com/D5-Howard/Red5Cluster/blob/master/release/1.0.10-RELEASE.zip
 
 # Just Use
 
@@ -21,25 +24,7 @@ I also release a version of Red5-server that can Work in Origin-Edge Mode.If you
 2. Unzip,and you will got two folders.
 3. red5-server is orgin server
 4. red5-server-edge is edge server
-5. modify red5-server/conf/red5.properties，change MRTMP setting.
-
-mrtmp.host=192.168.0.4
-mrtmp.server=192.168.0.4
-mrtmp.port=9035
-mrtmp.event_threads_core=4
-mrtmp.event_threads_max=32
-mrtmp.event_threads_queue=0
-mrtmp.event_threads_keepalive=60
-
-mrtmp.send_buffer_size=271360
-mrtmp.receive_buffer_size=65536
-mrtmp.ping_interval=5000
-mrtmp.max_inactivity=60000
-mrtmp.tcp_nodelay=true
-
-you just need change 192.168.0.4 in mrtmp.host and mrtmp.server to your ip address.
-
-
+5. modify red5-server/conf/red5.properties,You just need change "192.168.0.4" in mrtmp.host and mrtmp.server to your own ip address.
 6. modify red5-server-edge/conf/red5.properties,change MRTMP setting like step 5.And please notice,mrtmp.host And mrtmp.server will be the origin ip.If you test it on your own computer,it will be same with step5.
 7. Launch the origin-server and edge-server
 8. Connect Orgin with port 1935(RTMP default port)
@@ -60,6 +45,6 @@ enjoy~
 
 Ps.If you let red5-server/red5-server-edge in parent folder of cluster-plugin.you can run run.bat to fast build and copy.Please make sure red5 server is shutdown when you run copy function with run.bat
 
-# Contect With Me
+# Contect
 
 You can post your message with Issue,or Email me: D5@microgame.cn
