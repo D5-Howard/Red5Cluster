@@ -42,6 +42,7 @@ enjoy~
 6. Copy content in resource/cluster.properties to your red5-server(origin/edge),and setting just like step5 and step6 in "Just Use" part.
 
 PS1. If you let red5-server/red5-server-edge in parent folder of cluster-plugin.you can run run.bat to fast build and copy.Please make sure red5 server is shutdown when you run copy function with run.bat
+
 PS2. I made some change in red5-common-master for testing.if your red5 can not work well,your can try update this lib in red5-server/lib/.Download my red5-common-master from here: https://github.com/D5-Howard/Red5Cluster/releases/
 
 # Contect
