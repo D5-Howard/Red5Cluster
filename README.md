@@ -14,7 +14,7 @@ I also release a version of Red5-server that can Work in Origin-Edge Mode.If you
 
 # Release version
 
-You can download release version there: https://github.com/D5-Howard/Red5Cluster/releases/tag/1.0.10
+You can download release version here: https://github.com/D5-Howard/Red5Cluster/releases/
 
 # Just Use
 
@@ -35,13 +35,14 @@ enjoy~
 # Build
 
 1. Download source code.
-2. If you are in Window.run build.bat to build the project.
+2. If you are in windows,run build.bat to build the project.
 3. Copy target/cluster-1.0.8-M1.jar to plugin folder in your red5-server.I just test this in red5 1.0.10.
 4. Copy resources/red5-origin-core.xml to your red5-server(origin)/conf,REPLACE your red5-core.xml
 5. Copy resources/red5-edge-core.xml to your red5-server(edge)/conf,REPLACE your red5-core.xml
 6. Copy content in resource/cluster.properties to your red5-server(origin/edge),and setting just like step5 and step6 in "Just Use" part.
 
-Ps.If you let red5-server/red5-server-edge in parent folder of cluster-plugin.you can run run.bat to fast build and copy.Please make sure red5 server is shutdown when you run copy function with run.bat
+PS1. If you let red5-server/red5-server-edge in parent folder of cluster-plugin.you can run run.bat to fast build and copy.Please make sure red5 server is shutdown when you run copy function with run.bat
+PS2. I made some change in red5-common-master for testing.if your red5 can not work well,your can try update this lib in red5-server/lib/.Download my red5-common-master from here: https://github.com/D5-Howard/Red5Cluster/releases/
 
 # Contect
 
