@@ -1,9 +1,11 @@
 
 # About
-This is a Red5 cluster-plugin that can work in red5 1.10.1.and will update with Red5 version.You can see also:
+This is a Red5 cluster-plugin that can work in red5 1.0.10.And will update with Red5 version.You can see also:
 
 Red5 https://github.com/Red5/red5-server
+
 Red5-plugin-cluster https://github.com/Red5/red5-plugins/tree/master/cluster
+
 
 Red5 cluster-plugin in Red5 Offical website is not work anymore. if you want stable or bussiness support for this funciton,you can view http://www.red5pro.com.
 I don't want to pay(^^),so I made some change from Red5 Office version to make it work again in new version of red5(1.0.10).
@@ -37,11 +39,13 @@ mrtmp.tcp_nodelay=true
 
 you just need change 192.168.0.4 in mrtmp.host and mrtmp.server to your ip address.
 
-6. modify red5-server-edge/conf/red5.properties,change MRTMP setting like step 5.And please notice,mrtmp.host And mrtmp.server will be the origin ip.If you test it on your own computer,it will be same with step 5.
+
+6. modify red5-server-edge/conf/red5.properties,change MRTMP setting like step 5.And please notice,mrtmp.host And mrtmp.server will be the origin ip.If you test it on your own computer,it will be same with step5.
 7. Launch the origin-server and edge-server
 8. Connect Orgin with port 1935(RTMP default port)
 9. Connect Edge with port 19350
 10. You can test in rtmp://your.ip:19350/live,this application is in origin-server,but you can connect it with edge-server.
+
 
 enjoy~
 
