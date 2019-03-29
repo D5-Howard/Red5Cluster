@@ -14,9 +14,7 @@ I also release a version of Red5-server that can Work in Origin-Edge Mode.If you
 
 # Release version
 
-You can download release version there:
-
-1. 1.0.10(2019-03-29)  https://github.com/D5-Howard/Red5Cluster/blob/master/release/1.0.10-RELEASE.zip
+You can download release version there: https://github.com/D5-Howard/Red5Cluster/releases/tag/1.0.10
 
 # Just Use
 
