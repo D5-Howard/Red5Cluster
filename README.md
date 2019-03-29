@@ -12,7 +12,7 @@ I don't want to pay(^^),so I made some change from Red5 Office version to make i
 
 I also release a version of Red5-server that can Work in Origin-Edge Mode.If you don't want to write code,you can download the release version.
 
-# Relase version
+# Release version
 
 You can download release version there:
 
