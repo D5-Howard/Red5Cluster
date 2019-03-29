@@ -21,21 +21,22 @@ I also release a version of Red5-server that can Work in Origin-Edge Mode.If you
 4. red5-server-edge is edge server
 5. modify red5-server/conf/red5.properties，change MRTMP setting.
 
-mrtmp.host=192.168.0.4 
+mrtmp.host=192.168.0.4
 mrtmp.server=192.168.0.4
 mrtmp.port=9035
 mrtmp.event_threads_core=4
 mrtmp.event_threads_max=32
-
 mrtmp.event_threads_queue=0
 mrtmp.event_threads_keepalive=60
+
 mrtmp.send_buffer_size=271360
 mrtmp.receive_buffer_size=65536
 mrtmp.ping_interval=5000
 mrtmp.max_inactivity=60000
 mrtmp.tcp_nodelay=true
 
-you just need change 192.168.0.4 to your ip address.
+you just need change 192.168.0.4 in mrtmp.host and mrtmp.server to your ip address.
+
 6. modify red5-server-edge/conf/red5.properties,change MRTMP setting like step 5.And please notice,mrtmp.host And mrtmp.server will be the origin ip.If you test it on your own computer,it will be same with step 5.
 7. Launch the origin-server and edge-server
 8. Connect Orgin with port 1935(RTMP default port)
